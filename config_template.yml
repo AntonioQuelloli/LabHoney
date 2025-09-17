@@ -1,0 +1,9 @@
+{
+  "listeners": [
+    {"port": 80, "proto": "tcp", "handler": "http"},
+    {"port": 2222, "proto": "tcp", "handler": "banner", "banner": "SSH-2.0-OpenSSH_7.4\\r\\n"},
+    {"port": 502, "proto": "tcp", "handler": "generic", "echo": false}
+  ],
+  "log_dir": "logs",
+  "jsonl": true
+}
